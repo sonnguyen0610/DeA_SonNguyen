@@ -44,7 +44,9 @@ public class Cau1 {
 //        System.out.println(list10MinTotalMark(returnListStudent(path)));
         //Save to output
         String output="output.csv";
-        saveStudentWithMark(output,returnListStudent(path));
+//        saveStudentWithMark(output,returnListStudent(path));
+//Hiển thị
+        sprintConsole(path);
     }
 
     //ghi file
@@ -236,6 +238,9 @@ public class Cau1 {
             } catch (IOException e) {
                 e.printStackTrace();
             }
+    }
+    public static void sprintConsole(String path) {
+
     }
 
 }
